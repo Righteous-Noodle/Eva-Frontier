@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="70" height="70" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="GroundTiles" tilewidth="64" tileheight="64">
+  <image source="GroundTiles.png" trans="ff0000"/>
+  <tile id="300">
+   <properties>
+    <property name="Cost" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="577" name="TerrainTiles" tilewidth="64" tileheight="64">
+  <image source="TerrainTiles.png" trans="ff00ff"/>
+ </tileset>
+ <tileset firstgid="877" name="BuildingTiles" tilewidth="64" tileheight="64">
+  <image source="BuildingTiles.png"/>
+ </tileset>
+ <layer name="Water" width="70" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2bTU4DMQyFp1tgUThLT4B6pIEjAUdCnIax1AjLSmLn107xk7xCmSRfnzOJM1y2bbuQOB/xdNqS+o60wfGabrpdmbax9h9HvAvajY7cvCRjbOWyH/GGwgKTEb831sPhwxcDc7TGRfoMi5GalzTPNbjAmvh8i1F+TM1LOp+ZXAIP/J6AXB3BqJXLfsTXQC7YG7n3ZmDUi00rF84zVzQ3yZgxBwmLlnHnxpDqV8qe2//Ac8Lf6TMpgxoOVD38yY2B60PyDCq8HrQyiKmVy4+gD84z3JqroRlcuH6cyxpcepytJFy4fvYt/46eqV7nTZjTJxOSfrTZAA9L503KJpyHZzGyzINjhKOWV5g/jVV41PDiWFmpUWmwirFZLUdG+ijw+a8e4fg4Ew8Pj9KgtZZV7wl6Bz1jWrhDgd/q8WSLizabMxqHNS5abDATbS77lt77975LgdzIBa2ftvbXY83cI2xKueTmXlMzrpkPd5dVwwmzke77W+eeE/fNRoyJZAyBUwmfkFcpJtQTI+4Ogkq41N6B9FpDpfXnHioZd21Nu2UNxR4Z6Y+YJGxqvAKqqRFosqBq+TYsp5o8mpkvnEZxAUnzKPhE2yNYHBd4V9TWqSVcavN0tCR+L2GDa/bc+kL34NYkeWcDm1zdvqY+bWk9ialkLxP49LjDuScuPcM6F63ah3UuIA3PQE5a+QYiJa1css5Gs45oPZ/cM3GBZzTYWN3zYmlwsZ5HoJlcLJ4XU3q41T9mrMEr+IRqpG9W8gnVKN+ssMZK1ItP7I7lHlSz7yv5f6GVFbwjjXtm4XK5XC6Xy+VyuVwul+tPv6HTTsaQTAAA
+  </data>
+ </layer>
+ <layer name="Decoration" width="70" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2aaW7EIAyFR+2vSpXaC3S5TNX7H6b7Mm2qRsqgsBie7QfJ93OUAQzm2RgOBxvezow6Uub6PP/Ni8DWy4L20Dx1vBYXDvMlWc9WnpX7QrRf24blPO7I0dQFtF8f/9u7+9WDe4EmvAvHcWOkNz1rMh1Ga/Y56JppxyAmvgC2luSEOztb4rtDDWHW8ysnjfkgm5NbUq1dnm22FD93OIj53Ii+yKTTpefD0jzT6hw4Ui2mxJajUc0q9T3FnBvFzxrdCf+jtRdi7c66kstdrdaxVrs9NL+lT88YpeVjWnXDVt+rnWuruKR+P6Gsf9J6tBTUXgnv0cL8ZNLAMM9a84He88sR6+7WNtXmViXk6g/Is0BtW5rz7VX3QRPGrV5r5ox1TY8x5XTf+72PpiZpwlZvlcC6pxF3fEws34yh9j5iv7wC2hgxH0sRe/9XqgOzb6fWL5VDoGsZMXs83jmygYqJiH2GhlX7LWjRLO88iQ3p+zz0/zVYy5XR75gZNWGJRZ2IKcaU2PsIHG+PdYIHpzFLNELTp2JrVpOTWeTNjNpaQ25+EWfwlN+wxXzPe2nLuLW1syUKrTd37HqydpentVcmvWCfDzQndbmMjzFo5lxrY6snMuf+Peal7KDuPJc5ivrZCdS+VZ3JW28Y7xm1kdr8930H+rK1uD4KDHfI3jpUi2UtbtlXKhfyWM+19YvpwfR7OG+12sHuNy2ayG6blF7tWYvXDJqZwu2OQLHfFpt69b2dMfkBl+fHD5BMAAA=
+  </data>
+ </layer>
+</map>

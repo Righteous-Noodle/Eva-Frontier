@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/eva_frontier/!svn/ver/411/trunk/code/EvaFrontier4/EvaFrontier/Screens
+END
+LoadingScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/LoadingScreen.cs
+END
+MessageBoxScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/MessageBoxScreen.cs
+END
+BackgroundScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/BackgroundScreen.cs
+END
+GameplayScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/eva_frontier/!svn/ver/415/trunk/code/EvaFrontier4/EvaFrontier/Screens/GameplayScreen.cs
+END
+OptionsMenuScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/OptionsMenuScreen.cs
+END
+CreditsMenuScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/CreditsMenuScreen.cs
+END
+PauseMenuScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/PauseMenuScreen.cs
+END
+ContinueGameMenuScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/ContinueGameMenuScreen.cs
+END
+PlayerIndexEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/PlayerIndexEventArgs.cs
+END
+MenuScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/MenuScreen.cs
+END
+MenuEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/MenuEntry.cs
+END
+MainMenuScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/eva_frontier/!svn/ver/403/trunk/code/EvaFrontier4/EvaFrontier/Screens/MainMenuScreen.cs
+END

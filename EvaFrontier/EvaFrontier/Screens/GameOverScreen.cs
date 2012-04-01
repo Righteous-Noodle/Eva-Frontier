@@ -1,0 +1,119 @@
+#region File Description
+//-----------------------------------------------------------------------------
+// PauseMenuScreen.cs
+//
+// Microsoft XNA Community Game Platform
+// Copyright (C) Microsoft Corporation. All rights reserved.
+//-----------------------------------------------------------------------------
+#endregion
+
+#region Using Statements
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
+
+#endregion
+
+namespace EvaFrontier.Screens
+{
+    /// <summary>
+    /// The pause menu comes up over the top of the game,
+    /// giving the player options to resume or quit.
+    /// </summary>
+    class GameOverScreen : MenuScreen1
+    {
+        private Texture2D _background;
+        private ContentManager _content;
+
+        #region Initialization
+
+
+        /// <summary>
+        /// Constructor.
+        /// </summary>
+        public GameOverScreen()
+            : base("")
+        {
+            // Flag that there is no need for the game to transition
+            // off when the pause menu is on top of it.
+            IsPopup = true;
+
+            // Create our menu entries.
+            //MenuEntry1 resumeGameMenuEntry = new MenuEntry1("Resume Game");
+            MenuEntry1 quitGameMenuEntry = new MenuEntry1("Return to Main Menu");
+            
+            // Hook up menu event handlers.
+            //resumeGameMenuEntry.Selected += OnCancel;
+            quitGameMenuEntry.Selected += ConfirmQuitMessageBoxAccepted;
+
+            // Add entries to the menu.
+            //MenuEntries.Add(resumeGameMenuEntry);
+            MenuEntries.Add(quitGameMenuEntry);
+        }
+
+
+        #endregion
+
+        public override void LoadContent()
+        {
+            if (_content == null) _content = new ContentManager(ScreenManager.Game.Services, "Content");
+            _background = _content.Load<Texture2D>(@"Textures\LostScreen");
+        }
+
+        #region Handle Input
+
+
+        /// <summary>
+        /// Event handler for when the Quit Game menu entry is selected.
+        /// </summary>
+        void QuitGameMenuEntrySelected(object sender, PlayerIndexEventArgs e)
+        {
+            const string message = "Are you sure you want to quit this game?";
+
+            MessageBoxScreen confirmQuitMessageBox = new MessageBoxScreen(message);
+
+            confirmQuitMessageBox.Accepted += ConfirmQuitMessageBoxAccepted;
+
+            ScreenManager.AddScreen(confirmQuitMessageBox, ControllingPlayer);
+        }
+
+
+        /// <summary>
+        /// Event handler for when the user selects ok on the "are you sure
+        /// you want to quit" message box. This uses the loading screen to
+        /// transition from the game back to the main menu screen.
+        /// </summary>
+        void ConfirmQuitMessageBoxAccepted(object sender, PlayerIndexEventArgs e)
+        {
+            LoadingScreen.Load(ScreenManager, false, null, new BackgroundScreen(),
+                                                           new MainMenuScreen());
+        }
+
+
+        #endregion
+
+        #region Draw
+
+
+        /// <summary>
+        /// Draws the pause menu screen. This darkens down the gameplay screen
+        /// that is underneath us, and then chains to the base MenuScreen.Draw.
+        /// </summary>
+        public override void Draw(GameTime gameTime)
+        {
+            ScreenManager.FadeBackBufferToBlack(TransitionAlpha * 2 / 3);
+
+            SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
+            Viewport viewport = ScreenManager.GraphicsDevice.Viewport;
+            Rectangle fullscreen = new Rectangle(0, 0, viewport.Width, viewport.Height);
+            spriteBatch.Begin();
+            spriteBatch.Draw(_background, fullscreen, Color.White);
+            spriteBatch.End();
+
+            base.Draw(gameTime);
+        }
+
+
+        #endregion
+    }
+}

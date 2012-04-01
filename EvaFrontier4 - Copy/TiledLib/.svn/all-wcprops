@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib
+END
+Orientation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/Orientation.cs
+END
+Layer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/Layer.cs
+END
+TiledLib [Xbox].csproj
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/TiledLib%20%5BXbox%5D.csproj
+END
+Map.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/Map.cs
+END
+Tile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/Tile.cs
+END
+MapReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/MapReader.cs
+END
+PropertyCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/PropertyCollection.cs
+END
+MapObjectLayer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/MapObjectLayer.cs
+END
+TileGrid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/TileGrid.cs
+END
+MapObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/MapObject.cs
+END
+Property.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/Property.cs
+END
+TiledLib [Phone].csproj
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/TiledLib%20%5BPhone%5D.csproj
+END
+TiledLib [Windows].csproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/TiledLib%20%5BWindows%5D.csproj
+END
+TileLayer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/eva_frontier/!svn/ver/395/trunk/code/TiledLib/TileLayer.cs
+END

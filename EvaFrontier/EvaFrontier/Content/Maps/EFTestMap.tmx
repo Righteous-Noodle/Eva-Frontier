@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="GroundTiles" tilewidth="64" tileheight="64">
+  <image source="GroundTiles.png"/>
+ </tileset>
+ <tileset firstgid="2501" name="TerrainTiles" tilewidth="64" tileheight="64">
+  <image source="TerrainTiles.png"/>
+ </tileset>
+ <tileset firstgid="2801" name="BuildingTiles" tilewidth="64" tileheight="64">
+  <image source="BuildingTiles.png"/>
+ </tileset>
+ <layer name="Ground" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82Zz24UMQzGMwJUKlHxMKjqDYmHablBgYfZ9jaF7sN0eqlA0IcplUjUsdZjbMfOn9kevstqNskvn+3JOCchhJMO2kR9jJqI3nUYcxKevZh1WTHn8Tz+j6jrqG0DjhuBAXPA+jHvbeW+JYZvUXdRX2aWUg7NiynzzGmBLxwD6H4e8xI9e4akzaN5MRmf8fAcCwzYk9N53XTv4Hc6T86LyfiMJ84Sx2+GAXuSmwd7hnNNU84LDwfsSS0HjgGas2twwL614PBqHxxD1N+oFw05HhzjaRxanQIdRR0Ou9r7MPN4mMaoq6jv5HcYLzdO2sNHhQN8tcQU9w6xMr2P+hX1ibBY6nOOAf6veZHjoEwSC3BQFguHpd7eZLzAuZHbE40Fc2AWjQPy0TJvjoPmhkUQa5jnZRzjDcMi8Vv3zcphjSmLNxwL97yXoTcHx/JT4YDnvQybYH+P15zbMQv1pHRMyiDVqpQXr4en3CjxWWPBntRyQH34IDCk9UMs1HjBzbkWB8RSSd3I+d+KI42HvyEOhqf4wQIvWjEk4TN8C46W58sSL8ao804c0jmWfhfVMljqbg0H7Dt3pqhlofP14qA5wLHU9l96cOBztnQGoywlHBwDx9Gi52b1rYRDqieUA3p9LXIxtw7vHJIXHMefsOwrtWapiS3JizEsay5wAMt1WPZbWjGVxpY1pjAHaBuWcXAR6rlwTfB+05RyQIxx/4e42zT2SxLXRxzD/zHFceAYA2GuW7RP1K+WbFyOSwwSh8QFtUDrU7Y4S3kZrByY5yvjUWsOHE9p/VcZBi+HFnst30PS2bwHh8S2rfQEx9Ro8KEHR9J9JUeJF704Su7jnhsHrW3WurwJyzubMdhjqgcHV9twHeBijtZZL0NPDi3msCfAkNb+eZaXoTXHUdj13ajehl0fCJ9vgKFk7T05oNdA72QOhmVPDp8LPPm8BgcXN1zv33J+3TeHdDbR7pi4e4B9cUAvV+sd0t5E7k5jHxyaF5K4+5lXSB6utbzQWKT8WfN9XsOQyx9PrP0DRP+nlRAnAAA=
+  </data>
+ </layer>
+ <layer name="Ocean" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAODfAC7KO00QJwAA
+  </data>
+ </layer>
+ <layer name="Mountain" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2ZO49BURRGDyq3R8P0RkbQk5DBKBkq1PihHsUMtUfhUc/wE6zmJloxk2vffCtZ9f2+W5x9so9zQtih7DlXwWncuRnOcREPOtX9tOnQwTXZN7jFncEePj9k/8UzXgz3EEIIIe7lk3nexZ4XdJLHGJF/jBPjPYQQQohnJM18zeCL8TlbIH8RS8Z7vJO/jg3jPcKI9X2fj/Z9IiginGtRjBk/3xLkT2IK3zBvtE+W3K+YwyrWvHDuEPw3G+v4bzb/TZNvfGDL+D/rk3+AQ/xiRnzjEleG58We7Ac84slwDyGsoPnxHITx/miZ2/uj+BuusnMDdxAnAAA=
+  </data>
+ </layer>
+ <layer name="Decoration" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2ZzQ7CMAiAd97B9/XfqVcTE32Bqe/k66jxMpGtpUBLt343l4Zg+StQVf4sasLhQjLmAnaSkEFhWXzLBFdgh/v790PBNk3tZ/M9cuYCvh2N+A6m18GIblSwe6cibZcVkAd9NYRc7TMmrMSvBNr+dBaWvwuQJ5EbCtNiy/QZrfdo25F7Kn6NMvROu0W4s9aAXTaeOpQ+5hdYK/pmCEPx3US4U0yvkNo4BXzqPzyjmVslclBoL6EZ76Ue/ccl9x0B6bM7JfalfcB3zip9F1xi5GkOsWeaPliz4dig+CSlt07p69rzEpj7OHEjMaPTouyzvqScgWrtF6RZZ6BjDCzW0G5vDncwoeS2F5D632MC7otCmCHfurXfVd9i7DZc75anvgosPrm1b74mYUNJUunjyke57tBi51ksVrAezGKdo2Jhbp4CTm/2AiWQTZYQJwAA
+  </data>
+ </layer>
+ <layer name="Tree" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1Z11EDMRDVr+6DYNMBsQITKyBXgEkVYFIHxOrIFZArwBh4zHgHzSD7hKXTnoTezPs5aU77dNLu7a4QCWXGQSbEYcZthT3OoOEc3AP3I9BzAg2nnnQcYZ3jEu/ZIGyrtO27lULcSV57esUoNIy1dbxAw2ugOlR8fmvwcHZi81MxYhq6Zpi0mfr9WcyZy5m3hPFlJh2mfn8Fc1Zz5m1gfNOBjmG8Y6Sg/djCe7c97bUaR3zCdXxV40gCL6r4DkMRfItxaJgISIdu37nutw10+57ud0JCQgIPUg1JD8rBa+AkOBXoHlEOPg8ugIuB6iCswf46uB64jh3Y3wB3A9eh4loKcRNBne8JGp4j0NGCho8IdPzXvLNbjucz/7P9R+iW4/nM/3z2mRJ+auR5/Yyy9zuoRp7Xz6DxC/jcS/DK0ve6jqd/rZHfY+0H8FF29sEmPUruePqGtZvgu/ztg6neTz1KnU56xh1P+2BDPziQdfb/1KPUxZqy1D3Vcx1y/Y/7XKuwidHc51oFxWiT3qVrFPGfadK7dI0i7nkvvcsvE8T2+xAnAAA=
+  </data>
+ </layer>
+ <layer name="Dummy Buildings" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Zuw7CQAxEUfNIwTpA+P+v5BkoCJnt0iBFEUq84h5p+lnZldcMwDmZXZSrclPuaelG07zVu1M+ub+brXzpRtPs1DsprtTK/ss7mFssY+c2xmMwy1ehc2U/Y/nlfgIAAAAA8I/yvaZVnqnce022drONslUqL/duc1D3o9IoJ+4cAACEwN9QLPwNsZPRsJPz6gHlnNkeECcAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="50" visible="0">
+  <object name="Village 01" x="397" y="452" width="36" height="35"/>
+  <object name="HQ" x="431" y="2078" width="31" height="33"/>
+  <object name="Village 02" x="1543" y="635" width="52" height="53"/>
+  <object name="Village 03" x="654" y="2992" width="48" height="54"/>
+  <object name="Village 04" x="2904" y="2760" width="36" height="38"/>
+  <object name="Village 05" x="2954" y="260" width="46" height="46"/>
+ </objectgroup>
+ <layer name="Collision Water" width="50" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1YWw7DIAzrDrT7X2/aRzUJFbATJwQ0S/3LAzeBGK7rh/fr+WMx84mIedv01szmRLhHxRzZMHVh7dD6ozERIHyY/9yzbfMw/4aBigeSx7o/0fijvOpcK3jshJN5RNY/CooZY/VRxlPyUJ5JTBzVzG99VJy8s1rZVx4u3nmp1ksR+lStR1B7S5+N+t6rM3s+3rWh9lEcbj/W3sIlSmN6/FZorZmPh38VTR09HzLiVarFHTNzHVF7I3s9K/Y3clazuVbxUL5FsBqW9bHGYnlYwMy/3jeLxeawQtmPnpoo71ZR95osHm08K69RbyG+kWB5VeXxlA/Z7yz3bB69dXh8K3D4opKm9cCrCSuh2p3Pikq61gPrvKkK5NxVaIcVQPTkDlDptwo4gcMf+Tilb07ZyyecrbNZtwuvjPeQaFjfzrz4AOrzC+gQJwAA
+  </data>
+ </layer>
+ <layer name="Collision Land" width="50" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YQQ4AEAxEUQ7k/tcTCwvdE/PzX2LfUSTampRl9HMlqhmSs2zp9UuSJEmSdFP6v5kyv1goOYgIvaHM+9LrVy7S3JySoyL1aHuZg7ZfpLNAyCAlIdw3340/UPpAyPCbCR5Z8REQJwAA
+  </data>
+ </layer>
+ <layer name="Collision" width="50" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1XWw7DIAzrDrT7X29f1SYExE6cQNEs7WfNAxNIzHWdg/fr++t988SybDJizmxmHD352pi9X88eiYkA4dN+m61vFKe1Z/aGAcoD3etZLNaHgbWPjA+SawWPJ+FkHpn1z4Jixnh9lPGUPJQ9iYmjmvmtj4pTdFYrz1WES3ReqvWSl0tUXyk1AZN35IP+z9r0fKJrQ+2zONx+rL1Xm2VozIjfCq1l+eyiGyO9Pns+VMTbqRZ3zMp1ZN2N6vWsuN9Ir2ZzreKhmv1M//doTUvjqTQlOodbuwh/VA+wObx2yvMYqYliDdnvmiwe1nn28prVHPFl4NGGjE81Dy/Q+85yz5oZDBT7sgN20rRt7KpzkV0LTz/w5qiEVaOddC2Tf6RxlHoKtckA0nc9906lOSJA9CQaZ+VZ3GEvVTiBwx/5GPWgJ8HqpU/j8wtVb60A88aPvCuzEX1/78SlBbM+ZW0+GP9PgRAnAAA=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="TestSet" tilewidth="64" tileheight="64">
+  <image source="TestSet.png"/>
+ </tileset>
+ <tileset firstgid="401" name="Clouds" tilewidth="64" tileheight="64">
+  <image source="Clouds.png" trans="ff00ff"/>
+ </tileset>
+ <layer name="Ocean" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SWQ7DMAgEUJ8x9z9M/yMvYGZYUpCQ+uGaeQ7PGOMJbkRFG77iQFW04yvfw8OBtjJLMzezpx3/7WCVdm5GgySX9nyEQZPL4mBlvnFk2ie0Y3U/07K6E/2+TMvuPvSOMHfsdhcYjluLZadZjlOOSg6LE+HYWVAGaU7W7Hbc7czsTBbTrCTn378rGaz/88ivzRJhkZb3W0Tm93Boijkre3bN3Oj7kO9nvZOVfTbz5PLIgnRUtawyVrPsMlaynPJVdEgtiHlsE3P+qljfprrDYx8yWNBvUt2B/sbd3d3d3f79A4m4qbEQJwAA
+  </data>
+ </layer>
+ <layer name="Sand" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2ZUW7DIAyGedt6hh5i6xnWnWHbGdbc/3VBqiWLGYPN75BI+SVeWoX4w8Y2JKW5+lrHN2DM1Mc6bun4HChfzOb4XcclxXJkn9+f4xNgM5+Pj+i44j5/A/AgY8jLQeNngCPH0CPh4mgWhzbv0TiQeXaEI+8T7x6JZNA4ajnR45NoBo0jCxFbWzC0OKQcY+WI2Ncv6X+s9Ih48liev0l1Tdo7ERxXYV6rsv3vSY4VKQ8gew/yxTLI0RPrUtyhWIhBssOinhip7R8EC80t2bEVxygL+WIPHBpLtvNV4eTz7oGDWB7FWNh/rfo7ytGKC+77EbXqr2SHVdJalms6olpOLP0s5V2qaYhz34hqDJKfSw7+LOJ84ZVWm3pqEn92pC/3imKhxqDtOW2/RrOUfZnWH/TkDdqvW7G01t2bw0mIOTS7Pfc7VBMt+a82l8cn3Hbr2Ylst9rf4vCwWM8a2XZU7Wm9y8LSw4G0natn3XpZtB4wwnYu/i6td7KwRPQrLZGd19TuA2fUyV6VNh6VRaoZLZaZfVhNtbXWWLwc6G8qXJqNkXej9E0FxUQ5hewt479k8Z75tNqCjFP+Hu3s5X2nxoHMHdLdp2SDl2MPuUNjtM6Dzh2zJN3ho+5ZZgjl41OnTp06mv4A9/1GdxAnAAA=
+  </data>
+ </layer>
+ <layer name="Grass" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2ZPU4EMQyFXSAKxFEQBeIAgQI4AGyxcADYArh/hSPW2oeVnyETzySjfNKr1hv5xU4yMyFqB8e6Zr0UqCWeqczD8FEfR+U91ZKPObXI+XCsO9a9Qd6anI8z1gfrPPL7lLF3FokDjuI9JfkfjrHvFPaSQnxckV1NHKU9HOjUF9IbIS8psNZWNYn1k3jQMTKn2ksKjK1VE0d/1xzmKD2EfeTjdb1kTjG/HBg7tyaYk4yVqjnGh3zg/6fgveAclaBzwjnVNdA5xtY8xiyFzilUW0fpngvN45o+cjnhWo7VSv9nLg+sR9ZTJi6Uk6PTfuoV6rscMm4JkrvXLeuVdUN5L5ope64le/rNXevtn+NgjVBLePDU8rE2W/ZxwfpeM6kCPllfSr15aJmpZ0DLeA9yBvS2ThHxUHqWtYLed3r1soVzwLNlHz32VsiHeOlpL4756K02+Hx0Sf2uF3zGk+cm7aeHmoTm2/vRXlqvSexZVXvpoSYxtuyl9f5Kge9Nc96XHC13n2IJfmfDe4DeCH2vsrxbsSJ2l2R932UBfnurdR+xNjXuIwaDwWCwDj/7gmqbECcAAA==
+  </data>
+ </layer>
+ <layer name="Decorates" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Z607DMAyF99qDAQP2F4Q0XoDLg0KkWYqs4zhxnM6Z8klTt7RJU8c+drrdbhGdN/b7rmOsnr697C/He9buNSdupxoene59q+z1SyCfyvkP47g5aG6Hy/FJ6HNN/28h2edWfPMA2lKsfin9uE6UeKi4ptXncj2h8WdaE8l+yQ5oTax4xHIL5+z7MzifYrzGdySN0LiWD5DeSRpGPmpZWx4/yK4IZGdN+2dEs4el9kiktfKIH+QTrbmuRW9zRsVDaT6nQff0hNcntfZ99Z5IhlXziG/Q9gLa0jOQTuexgWxw7JyTF2R3ep4TO7bipYOS36D4lta3N16s+wCJUixYdSgy74Vz3LY//59f1ra1TdKcuH9Zc1xEttoHWjWgV6dbqa33ZiN6LXrWL1HhvpzrB89pUn+uLyjPL3zwqF298zHRu+65n3nFXrQYRrlxJraw50y1QrS5ar41KvYXY/DI8RyqD1HdJsV3yx4imub2UvOODe27apByZklXtP8+avF8j2/Vlch6tPW++Th4fMlHo+WwxQLhpXuLxQj+ANU1/c4QJwAA
+  </data>
+ </layer>
+ <layer name="Farm 2" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WwQkAIBADwWtQe9D+i/CKUIIwA/vPM1UAAPDG6GZ6xAWr2+kRAAB8wQcGAAAAyDoTdQG9ECcAAA==
+  </data>
+ </layer>
+ <layer name="Mountain" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WuY5BcRiG8XMKS2lKy7gDYwl6phl6KsYobRVqXKhl3IG19jQKS6JQnP+XvL/kSZxE5P0KwvPcsqQVrWlDKd/zPint375vwPOQRv7DRzhhR3s60JFy7MxT4W7vjOc5LRy9I8SuMEUo6ujGVxrsbtI/r7dBj3lDjxv6dOL1OegxIobE+d4kKGn0N+wqw/4vyhq/o8L+Kn0bv0NERETEiiL/u0pUNv7/64f9Naobv6PF/jb9Gr+jw/4/6lKMPozeM2b3hKZG94uIiIiIiIiIyHMXaIZvoRAnAAA=
+  </data>
+ </layer>
+ <layer name="Trees" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Z24nCQBjF8YS1Al0vHXjbFtYOFLQDBe3BSwe7rludClqBClqB+s/DIARfAiMzE88PDuRpcj5HwpBEkUh2O7J3XcKCM7m4LpHRmmzIllTjKKqRD1KIHRfL6ECO5ETadP8KrL9xJbfkItD+RpH+JfJpcY4ya1UC/10STWZo5WAO27S//qjTv+HxDF3Sc13CgiEZuS4hIiIi8sbmnHkX5Jt0PD7/Jp6dgU3vFfknfTLwfI5nZ+B07zHXE8tzmL1+hSnrzuLX9E4ze/1Dfi3fa8l6f57/f0Tk8cwJnZ45+ZS397vme1noQv5eJiIi4ps7ioVGtBAnAAA=
+  </data>
+ </layer>
+ <layer name="Building" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WyQmAQAwFUNtzacGlBZcetGxzmBJGI/gefMgpySWQpgEAMu2RI3uJCs7Ilb0En9FGuso9M25ljEyl7iNDhZ4Zt7JGtlLPkeXl+QAAf/DED5zhiR84gx8YAAAA/usGoZWz4xAnAAA=
+  </data>
+ </layer>
+ <layer name="Buildings" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Xyw2DMBREURrgkxIIoQQI9N8Yo1SQWIow6Bzp7p9mZTcNAABX1qYu9WlIj3PPKTamZ5rSK83nnvNRsu2S1vROW9r/dt33aty2RI3bAgDcjf9FXbyBAQAA4HcHXRFKDhAnAAA=
+  </data>
+ </layer>
+ <layer name="Farm" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WQQ2AMBREwRoED+ChItAAeOV7oGTTMJPs/R23NQD4Rk8HDHKkA146a1ftTocAEUttTUcMsNX2dAQAAFPwgQEAAODfHgQ0DnsQJwAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="50">
+  <object name="PlayerStart" x="1456" y="2016" width="15" height="17"/>
+  <object name="Village 01" x="1425" y="1896" width="28" height="28"/>
+  <object name="Village 03" x="1106" y="1006" width="24" height="20"/>
+  <object name="Village 02" x="1942" y="868" width="24" height="24"/>
+ </objectgroup>
+ <layer name="Clouds 1" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OMREAAAgEoLf/aGFTeA5CAhIAAAAAAAA+6LoeAAAA7BrdD8g8ECcAAA==
+  </data>
+ </layer>
+</map>
